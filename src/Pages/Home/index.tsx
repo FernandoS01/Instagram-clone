@@ -1,8 +1,12 @@
+import { Aside } from '../../Components/Aside'
+
+import './styles.css'
+
 export function Home() { 
-  var a;
   
   return (
    <div>
+   <Aside />
     </div>
   )
 }
