@@ -1,13 +1,28 @@
 import './styles.css'
+import Logo from '../../Assets/logo.png'
+import ButtonPlayStore from '../../Assets/buttonPlayStore.png'
+import ButtonAppleStore from '../../Assets/buttonAppleStore.png'
 
 export function Section(){
     return (
         <div className='formContainer'>
         <form className='form'>
-            <input type='text' />
-            <input type="password" />
+            <img src={Logo} alt="" />
+            <input type='text' placeholder='Telefone, nome de usuário ou e-mail' />
+            <input type="password"placeholder='Senha'/>
             <button>Enviar</button>
+            <span>Ou</span>
+            <a href=''>Entrar com o facebook</a>
+            <a href=''>Esqueceu a senha?</a>
         </form>
+        <div>
+            <span>Não tem uma conta?<a href=''>Cadastre-se</a></span>
+        </div>
+        <div>
+            <p>Obtenha o aplicativo.</p>
+            <a href=''><img src={ButtonAppleStore} alt="" /></a>
+            <a href=''><img src={ButtonPlayStore} alt="" /></a>
+        </div>
         </div>
     )
 }

@@ -1,14 +1,21 @@
 .aside {
     height: 700px;
-    width: 400px;
-    background-color: black;
+    width: 500px;
 
+    background-image: url('../../Assets/cellBg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    padding: 0 68px;
     align-items: center;
 }
 .content {
-    background-color: white;
+    background-image: url(../../Assets/cellphone1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+   
     height: 650px;
-    width: 350px;
+    width: 300px;
 }
