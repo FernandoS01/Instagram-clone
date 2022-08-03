@@ -9,9 +9,9 @@
     
 }
 .form {
-    border: 2px solid #ccc;
+    border: 1px solid #ddd;
     width: 80%;
-    height: 300px;
+    height: 400px;
 
     display: flex;
     align-items: center;
@@ -20,14 +20,13 @@
     gap: 10px;
 }
 .form input {
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     width: 80%;
     height: 30px;
     padding: 4px;
     
 }
 .form button {
-    border: 1px solid #ccc;
     width: 80%;
     height: 30px;
     border-radius: 4px; 
@@ -39,11 +38,10 @@
 }
 .buttons {
     display: flex;
-    width: 360px;
+    width: 80%;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    background-color: #ccc;
 }
 .buttons p {
     text-align: center;
@@ -52,4 +50,10 @@
 }
 .buttons a img {
     width: 130px;
+}
+.signUp {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    width: 80%;
+    padding: 20px;
 }

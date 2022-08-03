@@ -15,7 +15,7 @@ export function Section(){
             <a href=''>Entrar com o facebook</a>
             <a href=''>Esqueceu a senha?</a>
         </form>
-        <div>
+        <div className='signUp'>
             <span>Não tem uma conta?<a href=''>Cadastre-se</a></span>
         </div>
         <div className='buttons'>
