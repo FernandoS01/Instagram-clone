@@ -6,6 +6,7 @@ export function Section(){
         <form className='form'>
             <input type='text' />
             <input type="password" />
+            <button>Enviar</button>
         </form>
         </div>
     )
