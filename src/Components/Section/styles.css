@@ -1,6 +1,6 @@
 .formContainer {
     height: 700px;
-    width: 500px;
+    width: 450px;
     
     flex-direction: column;
     display: flex;
@@ -36,4 +36,20 @@
     font-weight: bold;
     color: white;
     background-color: #069cd85d;
+}
+.buttons {
+    display: flex;
+    width: 360px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #ccc;
+}
+.buttons p {
+    text-align: center;
+    margin: 10px 0;
+    flex-basis: 100%;
+}
+.buttons a img {
+    width: 130px;
 }

@@ -18,7 +18,7 @@ export function Section(){
         <div>
             <span>Não tem uma conta?<a href=''>Cadastre-se</a></span>
         </div>
-        <div>
+        <div className='buttons'>
             <p>Obtenha o aplicativo.</p>
             <a href=''><img src={ButtonAppleStore} alt="" /></a>
             <a href=''><img src={ButtonPlayStore} alt="" /></a>

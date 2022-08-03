@@ -1,6 +1,6 @@
 .aside {
-    height: 700px;
-    width: 500px;
+    height: 600px;
+    width: 400px;
 
     background-image: url('../../Assets/cellBg.png');
     background-repeat: no-repeat;
@@ -8,11 +8,10 @@
     
     display: flex;
     justify-content: flex-end;
-    padding: 0 68px;
+    padding: 0 90px;
     align-items: center;
 }
 .content {
-    background-image: url(../../Assets/cellphone1.png);
     background-repeat: no-repeat;
     background-size: contain;
    
