@@ -12,6 +12,7 @@
     border: 1px solid #ddd;
     width: 80%;
     height: 400px;
+    
 
     display: flex;
     align-items: center;
@@ -19,22 +20,46 @@
     flex-direction: column;
     gap: 10px;
 }
+.form img {
+    margin: 25px 0;
+}
 .form input {
     border: 1px solid #ddd;
     width: 80%;
     height: 30px;
-    padding: 4px;
-    
+    padding: 8px;  
+    font-size: 11px;
+}
+.form input:focus {
+    outline: none;
 }
 .form button {
     width: 80%;
     height: 30px;
     border-radius: 4px; 
-    
+    margin-bottom: 15px;
+
     letter-spacing: 2px;
     font-weight: bold;
     color: white;
     background-color: #069cd85d;
+}
+.form a {
+    color: #03308a;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.form a img {
+    height: 14px;
+}
+.form a:nth-child(6n){
+    font-size: 14px;
+    height: 20px;
+}
+.form a:last-child {
+    margin-top: 10px;
+    font-size: 10px;
 }
 .buttons {
     display: flex;
