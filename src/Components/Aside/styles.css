@@ -13,6 +13,9 @@
     align-items: center;
 }
 .content {
+    background-position: center;
+    background-size: contain;
+    animation: slider 10s infinite;
     overflow: hidden;
     height: 560px;
     width: 260px;
@@ -24,4 +27,22 @@
 }
 .content .active {
     opacity: 1;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url('../../Assets/cellphone1.png');
+    }
+    25% {
+            background-image: url('../../Assets/cellphone2.png');
+        }
+    50% {
+        background-image: url('../../Assets/cellphone3.png');
+    }
+    75% {
+        background-image: url('../../Assets/cellphone4.png');
+    }
+    100% {
+        background-image: url('./../Assets/cellphone1.png');
+    }
 }

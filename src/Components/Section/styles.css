@@ -81,4 +81,9 @@
     border: 1px solid #ddd;
     width: 80%;
     padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+.signUp a {
+    color:#016e99;
 }
