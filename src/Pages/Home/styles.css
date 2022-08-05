@@ -1,6 +1,7 @@
 .containerHome {
     width: 100%;
-    height: 85vh;
+    height: 850px;
+    max-height: 85vh;
     background-color: #f4f4f4;
 
     gap: 10px;

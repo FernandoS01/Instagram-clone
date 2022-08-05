@@ -8,13 +8,20 @@
     
     display: flex;
     justify-content: flex-end;
-    padding: 0 90px;
+    padding-right: 30px;
+    padding-top: 5px;
     align-items: center;
 }
 .content {
-    background-repeat: no-repeat;
-    background-size: contain;
-   
-    height: 650px;
-    width: 300px;
+    overflow: hidden;
+    height: 560px;
+    width: 260px;
+}
+.content img {
+    height: inherit;
+    width: inherit;
+    opacity: 0;
+}
+.content .active {
+    opacity: 1;
 }
